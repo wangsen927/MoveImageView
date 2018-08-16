@@ -3,16 +3,12 @@ package com.moveimageview;
 import android.animation.ObjectAnimator;
 import android.content.Context;
 import android.util.AttributeSet;
-import android.util.DisplayMetrics;
-import android.view.Display;
 import android.view.MotionEvent;
-import android.view.WindowManager;
 import android.view.animation.DecelerateInterpolator;
 
 /**
  * 如果view随手指拖动时，同时需要点击事件，直接在外部设置即可，内部已解决冲突
- *
- * */
+ */
 public class MoveImageView extends android.support.v7.widget.AppCompatImageView {
 
 
