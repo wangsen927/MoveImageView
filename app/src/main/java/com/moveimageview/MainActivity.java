@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        //点击事件冲突，内部已解决
+        //点击事件冲突，内部已解决。
         findViewById(R.id.iv).setOnClickListener(new View.OnClickListener() {
 
             @Override
